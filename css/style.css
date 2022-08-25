@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    /* apelido */
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "TitilliumWeb-Bold";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto thin';
+    src: url(/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+/* fonts used by this website*/
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url(../fonts/roboto/roboto-thin.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url(../fonts/roboto/roboto-black.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-thinItalic';
+    src: url(../fonts/roboto/roboto-thinItalic.ttf);
+}
+
+/* display costuming */
+/* tablets */
+@media all and (max-width: 991px) {
+    .container .container-grid {
+        max-width: 980px;
+    }
+
+    header .logo {
+        max-width: 230px;
+        margin-left: 15px;
+    }
+
+
+}
+
+@media screen {}
+
+/*desktops */
+@media screen and (min-width: 992px) {
+    .container-grid {
+        max-width: 900px;
+    }
+}
+
+/* telas largas*/
+@media screen and (min-width: 1200px) {}
+
+/* full hd */
+@media screen and (min-width: 1440px) {}
+
+.cabecalho {
+    height: 90px;
+    background-color: black;
+}
+
+.logo {
+    padding: 20px;
+    width: 300px;
+    align-items: flex-start;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    list-style: none;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.header-flex {
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* bootstrap costuming */
+.container {
+    max-width: 1200px;
+}
+
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* banner home page */
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    /*nao presisa*/
+    height: 600px;
+    background-image: url(../images/banner_pilotos.png);
+    background-color: black
+}
+
+.banner .banner-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 280px;
+}
+
+.banner .banner-info-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 600px;
+}
+
+.banner .banner-info-box .info-title {
+    color: white;
+    font-size: 50px;
+    font-family: 'roboto-thin';
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.banner .banner-info-box .info-description {
+    color: white;
+    font-size: 35px;
+    font-family: 'roboto-thin';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner .banner-info-box .info-link {
+    color: white;
+    border-radius: 20px;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+/* Games that we are currently on tournaments */
+.jogos {
+    background-color: black;
+    color: black;
+}
+
+.jogos .collapse .bg-dark .text-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto-thin';
+    text-transform: uppercase;
+}
+
+.jogos .logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section players */
+.players {
+    background-color: black;
+}
+
+.players .container .row .col-12 .h2Team {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto-thin';
+    font-style: italic;
+    color: white !important;
+    letter-spacing: .25em;
+    opacity: 0.15;
+    font-size: 128px !important;
+    line-height: 155px !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    left: 383px;
+}
+
+.players .card {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'roboto-thin';
+    border: 1px solid white;
+    border-radius: 5px 5px 20px 20px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+}
+
+.players .card .btn {
+    background-color: #FF0000;
+    color: white;
+    width: 100%;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.card .card-title {
+    text-transform: uppercase;
+    font-family: 'roboto-light';
+    font-size: 1.8em;
+}
+
+footer {
+    background-color: black;
+}
+
+.body {
+    margin: 0;
+    display: flex;
+    font-family: 'roboto-thin';
+}
+
+/* reset de styles */
+* {
+    margin: 0;
+    padding: 0;
+}
